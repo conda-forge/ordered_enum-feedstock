@@ -1,5 +1,5 @@
 {% set name = "ordered_enum" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ordered_enum-{{ version }}.tar.gz
-  sha256: 6544c0f528eeeec0bbe7999bf512c40fe62de24bedba9cf881f3bc24f57ad773
+  sha256: c06595263d09dc31d60006d212692dccaf623125774efd84bc01f90d3cb71102
 
 build:
   noarch: python
@@ -16,10 +16,11 @@ build:
 
 requirements:
   host:
+    - flit-core >=3.2,<4
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
