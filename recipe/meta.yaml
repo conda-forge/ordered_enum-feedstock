@@ -1,5 +1,5 @@
 {% set name = "ordered_enum" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ordered_enum-{{ version }}.tar.gz
-  sha256: c06595263d09dc31d60006d212692dccaf623125774efd84bc01f90d3cb71102
+  sha256: 6f4f1523cc6e68967b350efa905cd80d4f3de5542a1b8ca1574b1159d30dfc45
 
 build:
   noarch: python
