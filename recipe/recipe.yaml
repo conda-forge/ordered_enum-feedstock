@@ -1,0 +1,44 @@
+schema_version: 1
+
+context:
+  name: ordered_enum
+  version: 0.0.9
+
+package:
+  name: ${{ name|lower }}
+  version: ${{ version }}
+
+source:
+  url: https://pypi.io/packages/source/${{ name[0] }}/${{ name }}/ordered_enum-${{ version }}.tar.gz
+  sha256: a821dbbe2f998a1ef4c5974c8cd8bdb62e0ddb20ddcd0851b091538c7f944ba0
+
+build:
+  number: 1
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - flit-core >=3.2,<4
+    - pip
+    - python ${{ python_min }}.*
+  run:
+    - python >=${{ python_min }}
+
+tests:
+  - python:
+      imports:
+        - ordered_enum
+      pip_check: true
+      python_version: ${{ python_min }}.*
+
+about:
+  summary: A small library for adding total orderings to enums
+  license: MIT
+  license_file:
+    - LICENSE
+  homepage: https://github.com/woodruffw/ordered_enum
+
+extra:
+  recipe-maintainers:
+    - thewchan
