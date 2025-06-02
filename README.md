@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-ordered_enum-green.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ordered__enum-green.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) |
 
 Installing ordered_enum
 =======================
