@@ -1,4 +1,4 @@
-About ordered_enum-feedstock
+About ordered-enum-feedstock
 ============================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ordered_enum-feedstock/blob/main/LICENSE.txt)
@@ -8,6 +8,8 @@ Home: https://github.com/woodruffw/ordered_enum
 Package license: MIT
 
 Summary: A small library for adding total orderings to enums
+
+Development: https://github.com/woodruffw/ordered_enum
 
 Current build status
 ====================
@@ -27,53 +29,54 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-ordered_enum-green.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ordered--enum-green.svg)](https://anaconda.org/conda-forge/ordered-enum) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ordered-enum.svg)](https://anaconda.org/conda-forge/ordered-enum) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ordered-enum.svg)](https://anaconda.org/conda-forge/ordered-enum) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ordered-enum.svg)](https://anaconda.org/conda-forge/ordered-enum) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ordered__enum-green.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ordered_enum.svg)](https://anaconda.org/conda-forge/ordered_enum) |
 
-Installing ordered_enum
+Installing ordered-enum
 =======================
 
-Installing `ordered_enum` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `ordered-enum` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `ordered_enum` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `ordered-enum, ordered_enum` can be installed with `conda`:
 
 ```
-conda install ordered_enum
-```
-
-or with `mamba`:
-
-```
-mamba install ordered_enum
-```
-
-It is possible to list all of the versions of `ordered_enum` available on your platform with `conda`:
-
-```
-conda search ordered_enum --channel conda-forge
+conda install ordered-enum ordered_enum
 ```
 
 or with `mamba`:
 
 ```
-mamba search ordered_enum --channel conda-forge
+mamba install ordered-enum ordered_enum
+```
+
+It is possible to list all of the versions of `ordered-enum` available on your platform with `conda`:
+
+```
+conda search ordered-enum --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search ordered-enum --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search ordered_enum --channel conda-forge
+mamba repoquery search ordered-enum --channel conda-forge
 
-# List packages depending on `ordered_enum`:
-mamba repoquery whoneeds ordered_enum --channel conda-forge
+# List packages depending on `ordered-enum`:
+mamba repoquery whoneeds ordered-enum --channel conda-forge
 
-# List dependencies of `ordered_enum`:
-mamba repoquery depends ordered_enum --channel conda-forge
+# List dependencies of `ordered-enum`:
+mamba repoquery depends ordered-enum --channel conda-forge
 ```
 
 
@@ -118,17 +121,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating ordered_enum-feedstock
+Updating ordered-enum-feedstock
 ===============================
 
-If you would like to improve the ordered_enum recipe or build a new
+If you would like to improve the ordered-enum recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/ordered_enum-feedstock are
+Note that all branches in the conda-forge/ordered-enum-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
@@ -143,5 +146,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@pavelzw](https://github.com/pavelzw/)
 * [@thewchan](https://github.com/thewchan/)
 
