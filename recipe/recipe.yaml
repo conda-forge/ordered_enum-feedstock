@@ -1,6 +1,6 @@
 context:
   name: ordered-enum
-  version: "0.0.9"
+  version: "0.0.10"
 
 recipe:
   name: ${{ name }}
@@ -8,10 +8,10 @@ recipe:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ordered_enum-${{ version }}.tar.gz
-  sha256: a821dbbe2f998a1ef4c5974c8cd8bdb62e0ddb20ddcd0851b091538c7f944ba0
+  sha256: 6979a367a7f252353eef4d5cd4c3c00c2178a421b52cc5f7cb2ee0d412d7f05b
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - package:
