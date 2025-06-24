@@ -7,7 +7,7 @@
 
 [project]
 name = "ordered_enum-feedstock"
-version = "3.50.0"  # conda-smithy version used to generate this file
+version = "3.50.1"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/ordered_enum-feedstock"
 authors = ["@conda-forge/ordered_enum"]
 channels = ["conda-forge"]
